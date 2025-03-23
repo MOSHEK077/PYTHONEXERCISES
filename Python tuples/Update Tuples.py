@@ -1,0 +1,5 @@
+mytuple = ("apple","orange","graphs")
+x = list(mytuple)
+x.append("Kiwi")
+mytuple = tuple(x)
+print(mytuple)
